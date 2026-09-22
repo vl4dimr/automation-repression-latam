@@ -1,0 +1,7 @@
+row,(1) PWT/ILO,(2) + robots,(3) + routine,(4) ILO share,(5) 1960-2024,(6) PWT varying
+log K/L (t-1),-0.094* (0.051),-0.113** (0.053),-0.105** (0.046),-0.074* (0.045),-0.053** (0.026),-0.173** (0.072)
+\quad wild-cluster bootstrap p,[0.088],[0.054],[0.064],[0.188],[0.086],[0.020]
+log robot stock per worker (t-1),,0.019 (0.012),,0.028 (0.022),,0.015 (0.013)
+Routine occupation share (t-1),,,-0.002 (0.010),,,
+Observations,555,436,349,317,883,278
+Countries,18,18,18,18,18,17

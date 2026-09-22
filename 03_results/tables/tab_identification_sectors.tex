@@ -1,0 +1,21 @@
+\begin{table}[htbp]\centering
+\caption{Employment-sector exposure diagnostics for the robot instrument}
+\label{tab:identification_sectors}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+ & Coefficient (CR1 SE) & Wild p & N \\
+\midrule
+education share & -0.056 (0.532) & 0.9245 & 425 \\
+education share + share x log trend & -1.089 (0.809) & 0.1866 & 425 \\
+health social share & 0.189 (0.175) & 0.2257 & 425 \\
+health social share + share x log trend & -0.217 (0.754) & 0.7676 & 425 \\
+education health share & 0.132 (0.599) & 0.8281 & 425 \\
+education health share + share x log trend & -1.306 (1.325) & 0.3407 & 425 \\
+manufacturing share & -1.596 (0.790) & 0.1045 & 425 \\
+manufacturing share + share x log trend & 1.886 (2.473) & 0.5020 & 425 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize ILO modelled total-sex employment, ISIC Rev.4 P (education), Q (human health/social work), C (manufacturing). Sector employment / ISIC4 total, in percent. Common complete-case sample starts in 1998, after the 1993-97 exposure-share window. Original controls plus country/year FE; Restricted country wild bootstrap with all distinct Rademacher sign pairs enumerated. Education and health may respond to technology, income, fiscal policy and labour reallocation, so these are not valid zero-effect placebos by assumption.\end{tablenotes}
+\end{table}

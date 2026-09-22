@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+02_data/raw/*
+!02_data/raw/README.md

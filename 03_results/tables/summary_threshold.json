@@ -1,0 +1,52 @@
+{
+ "Physical rep., threshold in K/L": {
+  "threshold": "10.959",
+  "ci": "not reported",
+  "share_above": "0.66",
+  "slope_low": "-0.199 (0.150)",
+  "slope_high": "0.027 (0.067)",
+  "F": "31.6",
+  "p": "0.698",
+  "N": "569"
+ },
+ "Composite rep., threshold in K/L": {
+  "threshold": "11.533",
+  "ci": "not reported",
+  "share_above": "0.40",
+  "slope_low": "-0.899 (0.461)",
+  "slope_high": "-0.245 (0.218)",
+  "F": "39.6",
+  "p": "0.322",
+  "N": "569"
+ },
+ "Physical rep., threshold in threat": {
+  "threshold": "1.239",
+  "ci": "not reported",
+  "share_above": "0.15",
+  "slope_low": "0.046 (0.029)",
+  "slope_high": "0.066 (0.035)",
+  "F": "17.1",
+  "p": "0.472",
+  "N": "289"
+ },
+ "Robots, threshold in K/L": {
+  "threshold": "10.742",
+  "ci": "not reported",
+  "share_above": "0.83",
+  "slope_low": "0.353 (0.291)",
+  "slope_high": "0.701 (0.256)",
+  "F": "29.6",
+  "p": "0.292",
+  "N": "461"
+ },
+ "Redistribution, threshold in K/L": {
+  "threshold": "11.566",
+  "ci": "not reported",
+  "share_above": "0.39",
+  "slope_low": "-0.634 (1.154)",
+  "slope_high": "1.495 (0.579)",
+  "F": "58.6",
+  "p": "0.188",
+  "N": "553"
+ }
+}

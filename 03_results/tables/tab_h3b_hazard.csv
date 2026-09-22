@@ -1,0 +1,7 @@
+row,"(1) mob., low rep.","(2) mob., high rep.","(3) mob., interaction","(4) MMP, low rep.","(5) MMP, high rep."
+log K/L (t-1),0.689 (0.578),-0.310 (0.459),-0.048 (0.433),0.258 (0.267),-0.039 (0.322)
+\quad wild-cluster bootstrap p,[0.425],[0.539],[0.948],[0.421],[0.888]
+K/L x high repression (t-1),,,-1.296 (1.636),,
+High repression (t-1),,,2.674 (3.269),,
+Observations,292,277,569,284,268
+Countries,11,15,18,11,15

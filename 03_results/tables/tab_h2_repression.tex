@@ -1,0 +1,25 @@
+\begin{table}[htbp]\centering
+\caption{H2. Repression, capital per worker and the threat of revolt}
+\label{tab:h2rep}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+ & (1) physical & (2) physical & (3) physical & (4) CSO & (5) PTS & (6) composite & (7) physical & (8) composite \\
+\midrule
+log K/L (t-1) & -0.027 (0.079) & 0.038 (0.028) & -0.002 (0.021) & -0.497 (0.438) & 0.592* (0.307) & -0.226 (0.155) & 0.028 (0.076) & -0.204 (0.330) \\
+\quad wild-cluster bootstrap p & [0.790] & [0.389] & [0.970] & [0.375] & [0.371] & [0.299] & [0.792] & [0.766] \\
+Threat: past mobilization (t-1) &  & -0.111 (0.072) & -0.182** (0.075) & -4.056* (2.145) & -1.572 (1.653) & -1.307* (0.774) &  &  \\
+K/L x past mobilization &  & 0.132* (0.074) & 0.199*** (0.075) & 4.362** (2.053) & 1.881 (1.611) & 1.395* (0.727) &  &  \\
+\quad wild-cluster bootstrap p &  & [0.367] & [0.212] & [0.405] & [0.493] & [0.493] &  &  \\
+Threat: anti-system movements (t-5..t-1) &  &  &  &  &  &  & 0.256 (0.309) & 0.106 (1.147) \\
+K/L x anti-system &  &  &  &  &  &  & -0.202 (0.313) & 0.078 (1.200) \\
+\quad wild-cluster bootstrap p &  &  &  &  &  &  & [0.515] & [0.952] \\
+Military expenditure \% GDP (t-1) &  &  & -0.026*** (0.006) & 0.453*** (0.173) & -0.049 (0.065) & 0.066 (0.054) & -0.001 (0.019) & 0.024 (0.087) \\
+Military is regime's main support (t-1) &  &  &  &  &  &  & 0.237*** (0.073) & 0.631*** (0.180) \\
+Observations & 569 & 289 & 236 & 236 & 236 & 236 & 506 & 506 \\
+Countries & 18 & 11 & 10 & 10 & 10 & 10 & 17 & 17 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize Dependent variables: physical repression (1 - v2x\_clphy), CSO repression (-v2csreprss), Political Terror Scale mean, composite index. Threat proxies: columns (2)-(6) lagged 10-year mean of mass mobilization in low-repression years (defined for 11 countries); columns (7)-(8) lagged 5-year mean of V-Dem anti-system movement strength (all 18 countries). Standardized regressors, two-way FE, country-clustered SEs, wild-cluster bootstrap p in brackets. Linear proxy associations are not literal coefficient restrictions from Proposition 6; main effects refer to raw moderator zero when interactions are present.\end{tablenotes}
+\end{table}

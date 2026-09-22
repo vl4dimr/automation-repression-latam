@@ -1,0 +1,7 @@
+row,2SLS,First-stage F,AR wild p(0),95% accepted grid points,N
+commodity repression,-0.450,19.45,0.0453,"[-1.255, -0.015]",569
+commodity choice,-2.363,11.71,0.0192,"[-20.000, -0.550]",553
+commodity labour,0.003,19.40,0.9769,"[-0.165, 0.098]",555
+robot repression,-0.156,0.53,0.7075,"[-5.000, 5.000]",443
+robot labour,0.051,0.36,0.7612,"[-2.000, 2.000]",436
+robot repression trend,0.438,3.02,0.3634,"[-5.000, 5.000]",443

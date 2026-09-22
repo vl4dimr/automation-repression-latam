@@ -1,0 +1,19 @@
+\begin{table}[htbp]\centering
+\caption{Multiple-testing adjustment over the declared exploratory family of six main tests}
+\label{tab:multi}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+ & coef. & cluster p & wild bootstrap p & Holm p & BH q \\
+\midrule
+H1a & -0.094 & 0.064 & 0.079 & 0.365 & 0.158 \\
+H1b low-rep & 0.446 & 0.047 & 0.073 & 0.365 & 0.158 \\
+H2 rep on K/L & 0.038 & 0.172 & 0.387 & 1.000 & 0.465 \\
+H2 rep on K/L x threat & 0.132 & 0.074 & 0.360 & 1.000 & 0.465 \\
+H2 redist on rep & -2.184 & 0.623 & 0.632 & 1.000 & 0.632 \\
+H3 robots on K/L & 0.604 & 0.021 & 0.036 & 0.216 & 0.158 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize Holm step-down (family-wise) and Benjamini-Hochberg (false discovery rate) adjustments applied to the wild-cluster bootstrap p-values.\end{tablenotes}
+\end{table}

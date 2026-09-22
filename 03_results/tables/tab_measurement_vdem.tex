@@ -1,0 +1,19 @@
+\begin{table}[htbp]\centering
+\caption{H2. Physical-repression endpoint sensitivity}
+\label{tab:measurement_vdem}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+ & Capital b (SE) & p & Interaction b (SE) & N & Countries \\
+\midrule
+Basic: Lower repression endpoint & -0.0242 (0.0742) & 0.748 &  & 569 & 18 \\
+Basic: Point estimate & -0.0271 (0.0790) & 0.736 &  & 569 & 18 \\
+Basic: Upper repression endpoint & -0.0253 (0.0853) & 0.770 &  & 569 & 18 \\
+Anti-system threat: Lower repression endpoint & 0.0347 (0.0694) & 0.624 & -0.1908 (0.3038) & 506 & 17 \\
+Anti-system threat: Point estimate & 0.0283 (0.0761) & 0.714 & -0.2019 (0.3132) & 506 & 17 \\
+Anti-system threat: Upper repression endpoint & 0.0315 (0.0829) & 0.709 & -0.1753 (0.3355) & 506 & 17 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize Outcome units: physical repression 0-1; regressors standardized. Lower repression = 1 minus V-Dem codehigh; upper repression = 1 minus codelow. Country/year FE, controls, CR1 SE; t p-values use countries minus one df. Within each specification the same observations and point-estimate covariates are held fixed. V-Dem endpoints summarize approximately 68\% marginal measurement-model probability. Applying an endpoint simultaneously to every observation is a deterministic stress test: it is neither a joint posterior draw nor a confidence interval for the regression coefficient. Interaction-model capital coefficients refer to anti-system threat=0.\end{tablenotes}
+\end{table}

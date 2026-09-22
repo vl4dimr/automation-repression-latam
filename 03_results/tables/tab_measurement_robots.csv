@@ -1,0 +1,8 @@
+row,Robot b (SE),p,Capital b (SE),N,Countries
+"Zero fill, initial zero, 10% depreciation",0.0193 (0.0125),0.141,-0.1125 (0.0532),436,18
+"Interpolate internal gaps, edge gaps zero",0.0182 (0.0125),0.165,-0.1109 (0.0530),436,18
+"Zero fill, initial zero, 5% depreciation",0.0197 (0.0131),0.152,-0.1116 (0.0531),436,18
+"Zero fill, initial zero, 15% depreciation",0.0183 (0.0118),0.141,-0.1126 (0.0532),436,18
+Initial stock = first 3 reported flows / 0.10,0.0116 (0.0275),0.679,-0.1049 (0.0487),436,18
+Five latest lagged flows reported,0.0358 (0.0272),0.206,-0.0999 (0.0789),255,18
+Outcome years through 2019,0.0208 (0.0121),0.105,-0.1268 (0.0606),402,18

@@ -1,0 +1,14 @@
+row,(1),(2),(3),(4)
+log K/L (t-1),-0.203 (0.307),0.003 (0.178),-0.059 (0.096),-0.096 (0.355)
+\quad wild-cluster bootstrap p,[0.541],[0.984],[0.597],[0.828]
+Threat: past mobilization (t-1),,-0.999** (0.453),-0.665 (0.504),
+K/L x past mobilization,,1.119*** (0.433),0.781 (0.501),
+\quad wild-cluster bootstrap p,,[0.048],[0.246],
+Threat: anti-system movements,,,,2.362 (1.922)
+K/L x anti-system,,,,-2.215 (2.103)
+\quad wild-cluster bootstrap p,,,,[0.415]
+Military expenditure % GDP (t-1),,,-0.141*** (0.040),-0.042 (0.116)
+Military support (t-1),,,,0.616 (0.395)
+"Driscoll-Kraay SE, log K/L",,,,(0.316)
+Observations,553,285,232,493
+Countries,18,11,10,17

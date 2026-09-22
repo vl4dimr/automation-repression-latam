@@ -1,0 +1,218 @@
+{
+ "lpm": [
+  {
+   "k": 0.09263816535805369,
+   "k_se": 0.03802675779178892,
+   "k_p": 0.014845305141891366,
+   "tax": NaN,
+   "tax_se": NaN,
+   "tax_p": NaN,
+   "kxt": NaN,
+   "kxt_p": NaN,
+   "n": 955,
+   "events": 25
+  },
+  {
+   "k": 0.034732857050457824,
+   "k_se": 0.03165614112488934,
+   "k_p": 0.27255757645901346,
+   "tax": -0.17060554625640564,
+   "tax_se": 0.11141047735572299,
+   "tax_p": 0.1256893181796048,
+   "kxt": 0.15802637249942497,
+   "kxt_p": 0.14362224161803022,
+   "n": 860,
+   "events": 20
+  },
+  {
+   "k": 0.16398189826044923,
+   "k_se": 0.05770399470455273,
+   "k_p": 0.00448628275287,
+   "tax": 0.025004348531099597,
+   "tax_se": 0.09573351186556002,
+   "tax_p": 0.7939483046396023,
+   "kxt": -0.052921825331639014,
+   "kxt_p": 0.5665588089915103,
+   "n": 759,
+   "events": 20
+  },
+  {
+   "k": -0.03518692913110173,
+   "k_se": 0.05607196677697824,
+   "k_p": 0.5303108512034711,
+   "tax": -0.5187777248191171,
+   "tax_se": 0.21226063432991715,
+   "tax_p": 0.014523011237846464,
+   "kxt": 0.50257910940667,
+   "kxt_p": 0.020211170363084785,
+   "n": 860,
+   "events": 37
+  },
+  {
+   "k": -0.01748791290782628,
+   "k_se": 0.024288957633797254,
+   "k_p": 0.471528457957345,
+   "tax": -0.18428914197374974,
+   "tax_se": 0.10881841524821555,
+   "tax_p": 0.09035132441828275,
+   "kxt": 0.18737044003888528,
+   "kxt_p": 0.08544301085524644,
+   "n": 707,
+   "events": 8
+  },
+  {
+   "k": 0.029128242625954655,
+   "k_se": 0.03506873608629127,
+   "k_p": 0.4061972106433561,
+   "tax": 0.08773694447515921,
+   "tax_se": 0.145488996951051,
+   "tax_p": 0.5464763195613627,
+   "kxt": -0.10079273098282945,
+   "kxt_p": 0.4753611980301642,
+   "n": 605,
+   "events": 12
+  },
+  {
+   "k": 0.2570812040209117,
+   "k_se": 0.13068174468923555,
+   "k_p": 0.0491565638585218,
+   "tax": 0.4112336398638403,
+   "tax_se": 0.3724781786270396,
+   "tax_p": 0.2695724891104472,
+   "kxt": -0.3803451214834649,
+   "kxt_p": 0.28548964275868105,
+   "n": 265,
+   "events": 19
+  },
+  {
+   "k": 0.03814494080350612,
+   "k_se": 0.02919140602699985,
+   "k_p": 0.1913084437433752,
+   "tax": 0.058188263272961664,
+   "tax_se": 0.05151653499676327,
+   "tax_p": 0.25868421161713084,
+   "kxt": -0.04193903791147257,
+   "kxt_p": 0.42088414031225363,
+   "n": 595,
+   "events": 8
+  }
+ ],
+ "clogit": {
+  "k": 1.5692654367875758,
+  "k_se": 1.2057830613840208,
+  "tax": 0.20109717209664763,
+  "tax_se": 0.5707861276942513,
+  "n": 440,
+  "countries": 9
+ },
+ "events": [
+  [
+   "Successful coup (1960-2024)",
+   "log K/L",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "Only 2 eligible event countries; inference withheld"
+  ],
+  [
+   "Successful coup (1960-2024)",
+   "log robots per worker",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "Only 0 eligible event countries; inference withheld"
+  ],
+  [
+   "Successful coup (1960-2024)",
+   "labour share",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "Only 2 eligible event countries; inference withheld"
+  ],
+  [
+   "Successful coup (1960-2024)",
+   "tax revenue % GDP",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "Only 2 eligible event countries; inference withheld"
+  ],
+  [
+   "Successful coup (1960-2024)",
+   "redistribution",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "Only 0 eligible event countries; inference withheld"
+  ],
+  [
+   "Successful coup (1960-2024)",
+   "physical repression",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "not estimated",
+   "Only 3 eligible event countries; inference withheld"
+  ],
+  [
+   "Autocratization onset (1990-2024)",
+   "log K/L",
+   "0.077",
+   "0.114 (0.031)",
+   "0.057 (0.018)",
+   "-0.072 (0.026)",
+   "9"
+  ],
+  [
+   "Autocratization onset (1990-2024)",
+   "log robots per worker",
+   "0.036",
+   "-0.016 (0.094)",
+   "0.077 (0.039)",
+   "-0.104 (0.069)",
+   "7"
+  ],
+  [
+   "Autocratization onset (1990-2024)",
+   "labour share",
+   "-0.015",
+   "-0.028 (0.021)",
+   "-0.006 (0.008)",
+   "0.013 (0.013)",
+   "9"
+  ],
+  [
+   "Autocratization onset (1990-2024)",
+   "tax revenue % GDP",
+   "-0.073",
+   "1.364 (2.033)",
+   "-0.785 (0.510)",
+   "0.188 (0.626)",
+   "9"
+  ],
+  [
+   "Autocratization onset (1990-2024)",
+   "redistribution",
+   "-0.013",
+   "-0.060 (0.229)",
+   "0.006 (0.084)",
+   "0.264 (0.135)",
+   "8"
+  ],
+  [
+   "Autocratization onset (1990-2024)",
+   "physical repression",
+   "-0.006",
+   "-0.000 (0.016)",
+   "-0.004 (0.013)",
+   "-0.001 (0.017)",
+   "9"
+  ]
+ ]
+}

@@ -1,0 +1,9 @@
+row,Coefficient (CR1 SE),Wild p,N
+education share,-0.056 (0.532),0.9245,425
+education share + share x log trend,-1.089 (0.809),0.1866,425
+health social share,0.189 (0.175),0.2257,425
+health social share + share x log trend,-0.217 (0.754),0.7676,425
+education health share,0.132 (0.599),0.8281,425
+education health share + share x log trend,-1.306 (1.325),0.3407,425
+manufacturing share,-1.596 (0.790),0.1045,425
+manufacturing share + share x log trend,1.886 (2.473),0.5020,425

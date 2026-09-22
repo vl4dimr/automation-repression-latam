@@ -1,0 +1,6 @@
+row,(1) log robots pw,(2) routine share,(3) physical rep.,(4) rep. composite
+log K/L (t-1),0.604** (0.262),-0.011 (0.025),-0.027 (0.079),-0.367 (0.271)
+\quad wild-cluster bootstrap p,[0.032],[0.679],[0.790],[0.261]
+"Residual corr. (robots, repression)",0.013,,,
+Observations,461,373,569,569
+Countries,18,18,18,18

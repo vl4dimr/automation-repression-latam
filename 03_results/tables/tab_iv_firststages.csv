@@ -1,0 +1,8 @@
+row,coefficient (SE),F (= t^2),N
+k_l1 on z_commodity_l1,-0.098 (0.104),0.9,569
+dk on z_commodity_l1,0.030*** (0.011),7.0,569
+k_l1 on z_commodity_ma5_l1,-0.049 (0.130),0.1,569
+dk on z_commodity_ma5_l1,0.035*** (0.012),8.3,569
+k_l1 on z_commodity_d5_l1,-0.035*** (0.008),19.4,569
+dk on z_commodity_d5_l1,0.003*** (0.001),8.1,569
+ln robots pw on z_robot,-0.230 (0.317),0.5,443

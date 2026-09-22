@@ -1,0 +1,23 @@
+\begin{table}[htbp]\centering
+\caption{H4. Coups in regimes with prior multiparty institutions, 1960-2024 (linear probability, two-way FE)}
+\label{tab:h4}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+ & (1) coup & (2) coup & (3) coup & (4) attempt & (5) coup, poly>0.4 & (6) aut. onset 1990+ & (7) coup, <=1990 & (8) attempt, >1990 \\
+\midrule
+log K/L (t-1) & 0.093** (0.038) & 0.035 (0.032) & 0.164*** (0.058) & -0.035 (0.056) & -0.017 (0.024) & 0.029 (0.035) & 0.257** (0.131) & 0.038 (0.029) \\
+\quad wild-cluster bootstrap p & [0.072] & [0.226] & [0.024] & [0.641] & [0.605] & [0.493] & [0.182] & [0.248] \\
+Tax revenue \% GDP (t-1) &  & -0.171 (0.111) & 0.025 (0.096) & -0.519** (0.212) & -0.184* (0.109) & 0.088 (0.145) & 0.411 (0.372) & 0.058 (0.052) \\
+\quad wild-cluster bootstrap p &  & [0.305] & [0.798] & [0.120] & [0.343] & [0.585] & [0.267] & [0.218] \\
+K/L x tax &  & 0.158 (0.108) & -0.053 (0.092) & 0.503** (0.216) & 0.187* (0.109) & -0.101 (0.141) & -0.380 (0.356) & -0.042 (0.052) \\
+Military expenditure \% GDP (t-1) &  &  & 0.016 (0.011) &  &  &  &  &  \\
+Military support (t-1) &  &  & 0.148*** (0.045) &  &  &  &  &  \\
+Events & 25 & 20 & 20 & 37 & 8 & 12 & 19 & 8 \\
+Observations & 955 & 860 & 759 & 860 & 707 & 605 & 265 & 595 \\
+Countries & 18 & 18 & 17 & 18 & 18 & 18 & 14 & 18 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize Sample: country-years with multiparty elections in t-1 (V-Dem RoW >= 1), column (5) electoral democracy index > 0.4 in t-1, column (6) ERT autocratization onset 1990-2024, columns (7)-(8) Cold War and post-Cold War sub-periods. Coefficients x 100 give percentage points per standard deviation. Tax revenue: CEPALSTAT, Andersson \& Brambor, WDI spliced. Country-clustered SEs, wild-cluster bootstrap p in brackets. These all-coup associations do not identify capitalist initiators; actual tax revenue is not the model’s feasible tax ceiling. Interaction contrasts govern marginal interpretations.\end{tablenotes}
+\end{table}

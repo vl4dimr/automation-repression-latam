@@ -1,0 +1,7 @@
+row,estimate,SE,MDE (80% power),MDE / SD of outcome,units,N
+H1a: labour share on log K/L,-0.094,0.051,0.142,1.84,share units (multiply by 100 for pp),555
+"H1b: mobilization on log(sK/sL), low repression",0.446,0.225,0.629,0.70,mobilization units,292
+H2: physical repression on log K/L,-0.027,0.079,0.221,1.11,index units (SD 0.21),569
+H2: physical repression on K/L x anti-system threat,-0.274,0.307,0.861,4.34,index units,569
+H2: redistribution on lagged repression,-2.184,4.449,12.457,3.83,Gini points,553
+H3: log robots per worker on log K/L,0.604,0.262,0.734,0.94,log points,461

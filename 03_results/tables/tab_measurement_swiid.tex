@@ -1,0 +1,19 @@
+\begin{table}[htbp]\centering
+\caption{H2. SWIID uncertainty propagated through 100 released imputations}
+\label{tab:measurement_swiid}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+ & Summary b (SE) & MI b (SE) & MI p & MI 95\% CI & N \\
+\midrule
+Redistribution: basic: k\_l1 & 1.1628 (0.5354) & 1.2011 (1.5212) & 0.455 & [-2.371, 4.773] & 553 \\
+Redistribution: interaction: k\_l1 & 1.0419 (0.5222) & 1.1384 (1.5251) & 0.481 & [-2.508, 4.785] & 553 \\
+Redistribution: interaction: rep\_phys\_l1 & -2.1845 (4.4490) & -0.1434 (10.8449) & 0.990 & [-25.143, 24.856] & 553 \\
+Redistribution: interaction: k\_x\_rep & 2.7384 (4.6504) & 0.7904 (11.0322) & 0.945 & [-24.618, 26.199] & 553 \\
+Redistribution: interaction: Repression at median capital & 0.5975 (0.3517) & 0.6596 (0.5758) & 0.279 & [-0.628, 1.947] & 553 \\
+Relative choice: anti-system: k\_l1 & -0.0957 (0.3551) & -0.1966 (0.6211) & 0.759 & [-1.599, 1.205] & 493 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize All 100 official absolute-redistribution imputations are read directly from the archived SWIID 9.92 Stata wide file. No independent normal draws are simulated. Every fit uses identical complete-case country-years, covariates and standardization. Within-imputation CR1 country-cluster covariance and between-imputation covariance are combined by Rubin rules, T=Ubar+(1+1/100)B. Approximate t inference uses Barnard-Rubin df with complete-data df=countries-1. Redistribution outcomes are Gini points; relative choice uses z(repression)-z(redistribution) with fixed full-window summary means/SDs in every imputation. Raw-product interaction main coefficients are evaluated at the other variable=0. The last redistribution contrast instead reports one SD of repression at median observed capital, with full covariance. The released draw means differ from the archived summary CSV in 606 of 606 paired 1990-2024 country-years; the largest absolute difference is 1.812 Gini points. Thus this comparison changes point estimates as well as propagating variance; it is not purely an uncertainty correction. The companion representation CSV documents those differences without inferring source error or version incompatibility. Other data-source uncertainty is not propagated.\end{tablenotes}
+\end{table}

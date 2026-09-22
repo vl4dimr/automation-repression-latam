@@ -1,0 +1,142 @@
+variable,description,unit,source,construction
+iso3,ISO3 country code,,,
+year,Calendar year,,,
+country,Country name,,,
+v2x_clphy,V-Dem physical violence index (higher = more respect),index,V-Dem v16,as published
+v2x_clphy_codelow,v2x_clphy lower bound,index,V-Dem v16,as published
+v2x_clphy_codehigh,v2x_clphy upper bound,index,V-Dem v16,as published
+v2csreprss,V-Dem CSO repression (higher = less repression; measurement-model scale),index,V-Dem v16,as published
+v2x_freexp_altinf,V-Dem freedom of expression and alternative information index,index,V-Dem v16,as published
+v2cagenmob,V-Dem mass mobilization (higher = more),index,V-Dem v16,as published
+v2cademmob,V-Dem mobilization for democracy,index,V-Dem v16,as published
+v2caautmob,V-Dem mobilization for autocracy,index,V-Dem v16,as published
+v2caassemb,V-Dem freedom of peaceful assembly (higher = more respected),index,V-Dem v16,as published
+v2clkill,V-Dem freedom from political killings,index,V-Dem v16,as published
+v2cltort,V-Dem freedom from torture,index,V-Dem v16,as published
+v2x_regime,"V-Dem Regimes of the World (0 closed aut., 1 electoral aut., 2 electoral dem., 3 liberal dem.)",index,V-Dem v16,as published
+v2x_polyarchy,V-Dem electoral democracy index,index,V-Dem v16,as published
+v2x_libdem,V-Dem liberal democracy index,index,V-Dem v16,as published
+v2x_civlib,V-Dem civil liberties index,index,V-Dem v16,as published
+v2x_clpol,V-Dem political civil liberties,index,V-Dem v16,as published
+v2x_clpriv,V-Dem private civil liberties,index,V-Dem v16,as published
+e_pt_coup,"Number of successful coups (Powell & Thyne, via V-Dem)",index,V-Dem v16,as published
+e_pt_coup_attempts,"Number of coup attempts (Powell & Thyne, via V-Dem)",index,V-Dem v16,as published
+v2regimpgroup,Regime most important support group (V-Dem code),index,V-Dem v16,as published
+v2csantimv,V-Dem anti-system movements (higher = stronger),index,V-Dem v16,as published
+e_civil_war,Civil war (V-Dem historical),index,V-Dem v16,as published
+v2x_ex_military,Military dimension of executive,index,V-Dem v16,as published
+v2x_corr,V-Dem political corruption index,index,V-Dem v16,as published
+rep_phys,Physical repression = 1 - v2x_clphy,0-1,V-Dem v16,reversed index
+rep_cso,CSO repression = -v2csreprss,std. scale,V-Dem v16,sign reversed
+rep_expr,Expression repression = 1 - v2x_freexp_altinf,0-1,V-Dem v16,reversed index
+mob,Mass mobilization (V-Dem v2cagenmob),std. scale,V-Dem v16,as published
+dem,"Democracy = 1 if v2x_regime in {2,3}",0/1,V-Dem v16,
+coup,Successful coup in year,0/1,Powell & Thyne via V-Dem e_pt_coup,
+coup_att,Coup attempt in year (successful or not),0/1,Powell & Thyne via V-Dem,
+mil_support,Regime's main support group is the military,0/1,V-Dem v2regimpgroup,code 5
+labor_support,Regime's main support group is urban or rural working class,0/1,V-Dem v2regimpgroup,"codes 9, 11"
+aut_ep,Inside an autocratization episode (ERT),0/1,ERT v16,
+aut_onset,First year of an autocratization episode,0/1,ERT v16,year == aut_ep_start_year
+aut_ep_outcome,ERT autocratization outcome code,code,ERT v16,
+dem_ep,Inside a democratization episode (ERT),0/1,ERT v16,
+dem_onset,First year of a democratization episode,0/1,ERT v16,
+reg_type,"ERT regime type (0 autocracy, 1 democracy)",0/1,ERT v16,
+pwt_rnna,PWT 10.01 rnna,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_cn,PWT 10.01 cn,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_emp,PWT 10.01 emp,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_labsh,PWT 10.01 labsh,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_rgdpna,PWT 10.01 rgdpna,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_pop,PWT 10.01 pop,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_hc,PWT 10.01 hc,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_delta,PWT 10.01 delta,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_csh_i,PWT 10.01 csh_i,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+pwt_rtfpna,PWT 10.01 rtfpna,"PWT units (mil. 2017 US$, millions of persons, shares)",PWT 10.01,as published
+gdppc_const2015,"GDP per capita, constant 2015 US$",,"WDI (World Bank API, pull 2026-09)",as published
+gdp_const2015,"GDP, constant 2015 US$",,"WDI (World Bank API, pull 2026-09)",as published
+pop_wdi,Population,,"WDI (World Bank API, pull 2026-09)",as published
+urban_share,"Urban population, % of total",,"WDI (World Bank API, pull 2026-09)",as published
+trade_open,"Trade, % of GDP",,"WDI (World Bank API, pull 2026-09)",as published
+resource_rents,"Total natural resource rents, % of GDP",,"WDI (World Bank API, pull 2026-09)",as published
+tax_rev_wdi,"Tax revenue, % of GDP (central govt)",,"WDI (World Bank API, pull 2026-09)",as published
+gfcf_const2015,"Gross fixed capital formation, constant 2015 US$",,"WDI (World Bank API, pull 2026-09)",as published
+manuf_va_share,"Manufacturing value added, % of GDP",,"WDI (World Bank API, pull 2026-09)",as published
+milexp_gdp,"Military expenditure, % of GDP",,"WDI (World Bank API, pull 2026-09)",as published
+armed_forces,"Armed forces personnel, total",,"WDI (World Bank API, pull 2026-09)",as published
+labor_force,"Labor force, total",,"WDI (World Bank API, pull 2026-09)",as published
+fdi_in_gdp,"FDI net inflows, % of GDP",,"WDI (World Bank API, pull 2026-09)",as published
+exp_fuel_share,"Fuel exports, % of merchandise exports",,"WDI (World Bank API, pull 2026-09)",as published
+exp_metal_share,"Ores and metals exports, % of merchandise exports",,"WDI (World Bank API, pull 2026-09)",as published
+exp_agri_share,"Agricultural raw materials exports, % of merchandise exports",,"WDI (World Bank API, pull 2026-09)",as published
+inflation,"CPI inflation, annual %",,"WDI (World Bank API, pull 2026-09)",as published
+unemp,"Unemployment, % of labor force (ILO modelled)",,"WDI (World Bank API, pull 2026-09)",as published
+ilo_labsh,Labour income share of GDP (ILO modelled estimates),share,ILOSTAT LAP_2GDP_NOC_RT,/100
+ilo_emp,"Employment, thousands (ILO modelled, 15+)",thousands,ILOSTAT EMP_2EMP_SEX_AGE_NB,
+routine_share,Employment share of routine-intensive occupations (ISCO 4+7+8),share,ILOSTAT EMP_TEMP_SEX_OCU_NB,"ISCO-08 where available, ISCO-88 otherwise; annual national LFS"
+elementary_share,Employment share of elementary occupations (ISCO 9),share,ILOSTAT,
+highskill_share,Employment share of ISCO 1-3,share,ILOSTAT,
+occ_cls,ISCO classification used in routine_share,,ILOSTAT,
+manuf_emp_share,"Manufacturing share of employment (ILO modelled, ISIC rev.4 section C)",share,ILOSTAT EMP_2EMP_SEX_ECO_NB,C / TOTAL
+socexp_gdp,"Public social expenditure, % of GDP, central government",% GDP,CEPALSTAT ind. 3127,COFOG social functions
+socexp_gdp_gg,"Public social expenditure, % of GDP, general government",% GDP,CEPALSTAT ind. 3127,
+socprot_gdp,"Social protection expenditure, % of GDP, central government",% GDP,CEPALSTAT ind. 3127,COFOG 10
+socprot_gdp_gg,"Social protection expenditure, % of GDP, general government",% GDP,CEPALSTAT ind. 3127,
+tax_gdp,"Tax revenue, % of GDP, central government",% GDP,CEPALSTAT ind. 821,
+tax_gdp_gg,"Tax revenue, % of GDP, general government",% GDP,CEPALSTAT ind. 821,
+tax_sc_gdp,"Tax revenue incl. social contributions, % of GDP, central government",% GDP,CEPALSTAT ind. 821,
+tax_sc_gdp_gg,"Tax revenue incl. social contributions, % of GDP, general government",% GDP,CEPALSTAT ind. 821,
+tax_ab_gdp,"Central government tax revenue, % of GDP (Andersson & Brambor v3, 1800-2024)",% GDP,Financing the State v3,centaxgdp (percent); 11 of 18 countries
+gini_disp,"Gini, disposable income (SWIID)",0-100,SWIID 9.92,
+gini_mkt,"Gini, market income (SWIID)",0-100,SWIID 9.92,
+abs_red,Absolute redistribution = gini_mkt - gini_disp,Gini points,SWIID 9.92,
+rel_red,Relative redistribution = abs_red / gini_mkt,%,SWIID 9.92,
+PTS_A,"Political Terror Scale, Amnesty",1-5,PTS-2025,
+PTS_H,"Political Terror Scale, Human Rights Watch",1-5,PTS-2025,
+PTS_S,"Political Terror Scale, US State Dept",1-5,PTS-2025,
+pts_mean,Mean of available PTS scores,1-5,PTS-2025,
+fh_cl,Freedom House civil liberties rating (1 free - 7 not free),1-7,FIW 1973-2024,year under review
+fh_pr,Freedom House political rights rating,1-7,FIW 1973-2024,
+mmp_protests,Number of protest events (>=50 participants) in year,count,Mass Mobilization Project v5,sum of protest flag
+mmp_repressed,Protests met with a repressive state response,count,MMP v5,any of dispersal/arrests/shootings/killings/beatings
+mmp_repress_share,Share of protests met with repression,share,MMP v5,
+mmp_participants,Sum of reported participants (categories imputed),persons,MMP v5,"hundreds=300, thousands=3000, tens of thousands=30000"
+mmp_violent,Protests with protester violence,count,MMP v5,
+rob_imp_real,"Imports of industrial robots (HS 847950), million 2015 US$",mil. 2015 US$,UN Comtrade,deflated with US CPI
+rob_imp_missing,Robot import value not reported to Comtrade that year (set to 0 in stock),0/1,UN Comtrade,
+rob_stock_real,"Robot capital stock, PIM with 10% depreciation from 1996",mil. 2015 US$,UN Comtrade,S_t = 0.9 S_{t-1} + M_t
+robots_pw,Robot stock per worker,2015 US$ per worker,Comtrade + PWT/ILO employment,
+rob_imp_pw,Robot imports per worker,2015 US$ per worker,Comtrade + PWT/ILO employment,
+donor_rob_pw,"Robot stock per worker, 14 non-Latin American donor economies pooled",2015 US$ per worker,Comtrade,shift of the instrument
+donor_imp_pw,"Robot imports per worker, donors pooled",2015 US$ per worker,Comtrade,
+p_energy,"World Bank real energy price index, 2010=100",index,Pink Sheet Sept 2026,
+p_metals,World Bank real metals and minerals price index,index,Pink Sheet Sept 2026,
+p_agri,World Bank real agriculture price index,index,Pink Sheet Sept 2026,
+K,Capital stock (PWT rnna; 2020+ perpetual inventory with WDI real GFCF growth and PWT delta),mil. 2017 US$,PWT + WDI,
+L,Employment (PWT emp; 2020+ ILO modelled employment growth),millions,PWT + ILO,
+labsh,Labour share (PWT labsh; 2020+ spliced with ILO labour income share growth),share,PWT + ILO,
+k,log capital per worker = log(K/L),log(mil. 2017 US$ per mil. workers),constructed,
+kl_level,"Capital per worker, level",2017 US$ per worker,constructed,
+k_extended,k uses the 2020+ extension,0/1,constructed,
+tax_any,"Tax revenue % GDP: CEPALSTAT, else Andersson-Brambor, else WDI",% GDP,constructed,splice for 1960-2024
+labsh_any,"Labour share: PWT where available, else ILO",share,constructed,used for El Salvador
+ln_sk_sl,log(capital share / labour share),log ratio,constructed,the model's inequality term
+rep_index,"Repression composite: mean of standardized rep_phys, rep_cso, rep_expr",z,constructed,
+high_rep,rep_phys above the 1990-2024 sample median,0/1,constructed,median = 0.157
+rep_tercile,Tercile of rep_phys (1990+),1-3,constructed,
+mob_l5,Lagged 5-year mean of mass mobilization,std. scale,constructed,years t-5..t-1
+threat_mob,Lagged 10-year mean of mobilization using only low-repression years,std. scale,constructed,proxy for beta that is not censored by contemporaneous repression
+antisys_l1,Lagged anti-system movement strength,std. scale,V-Dem,
+armed_pc,"Armed forces per 1,000 population",per 1000,WDI,
+coldwar,Cold War years (<=1990),0/1,constructed,
+decade,Decade,,constructed,
+w_fuel,"Fuel share of merchandise exports, mean of first 5 available years from 1990",share,WDI,share of the commodity instrument
+w_metal,"Ores and metals share of merchandise exports, same window",share,WDI,
+w_agri,"Agricultural raw materials share of merchandise exports, same window",share,WDI,
+z_commodity,Commodity price instrument = sum_c w_c * log(real price index_c),log points,constructed,"energy, metals, agriculture; Pink Sheet real indices"
+z_robot,Shift-share instrument = 1993-97 manufacturing share x log(1 + donor robot stock per worker),,constructed,
+w_manuf,"Manufacturing employment share, 1993-97 mean (ILO)",share,ILOSTAT,
+w_manuf_va,"Manufacturing value added share of GDP, 1993-97 mean (WDI)",share,WDI,fallback share
+w_manuf_use,"Share used in z_robot (ILO employment share, else WDI value-added share)",share,constructed,
+ln_gdppc,log GDP per capita (constant 2015 US$),log,WDI,
+ln_robots_pw,log(1 + robot stock per worker),log,constructed,
+ln_mmp_protests,log(1 + MMP protest count),log,constructed,
+in_panel,Inside the 1990-2024 baseline window,0/1,constructed,

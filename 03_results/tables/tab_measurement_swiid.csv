@@ -1,0 +1,7 @@
+row,Summary b (SE),MI b (SE),MI p,MI 95% CI,N
+Redistribution: basic: k_l1,1.1628 (0.5354),1.2011 (1.5212),0.455,"[-2.371, 4.773]",553
+Redistribution: interaction: k_l1,1.0419 (0.5222),1.1384 (1.5251),0.481,"[-2.508, 4.785]",553
+Redistribution: interaction: rep_phys_l1,-2.1845 (4.4490),-0.1434 (10.8449),0.990,"[-25.143, 24.856]",553
+Redistribution: interaction: k_x_rep,2.7384 (4.6504),0.7904 (11.0322),0.945,"[-24.618, 26.199]",553
+Redistribution: interaction: Repression at median capital,0.5975 (0.3517),0.6596 (0.5758),0.279,"[-0.628, 1.947]",553
+Relative choice: anti-system: k_l1,-0.0957 (0.3551),-0.1966 (0.6211),0.759,"[-1.599, 1.205]",493

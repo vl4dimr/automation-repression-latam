@@ -1,0 +1,18 @@
+\begin{table}[htbp]\centering
+\caption{H3. Exploratory two-way fixed-effects threshold regressions}
+\label{tab:h3thr}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+ & threshold & threshold interval & share above & slope below & slope above & F & bootstrap p & N \\
+\midrule
+Physical rep., threshold in K/L & 10.959 & not reported & 0.66 & -0.199 (0.150) & 0.027 (0.067) & 31.6 & 0.698 & 569 \\
+Composite rep., threshold in K/L & 11.533 & not reported & 0.40 & -0.899 (0.461) & -0.245 (0.218) & 39.6 & 0.322 & 569 \\
+Physical rep., threshold in threat & 1.239 & not reported & 0.15 & 0.046 (0.029) & 0.066 (0.035) & 17.1 & 0.472 & 289 \\
+Robots, threshold in K/L & 10.742 & not reported & 0.83 & 0.353 (0.291) & 0.701 (0.256) & 29.6 & 0.292 & 461 \\
+Redistribution, threshold in K/L & 11.566 & not reported & 0.39 & -0.634 (1.154) & 1.495 (0.579) & 58.6 & 0.188 & 553 \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize Regime-specific regressors are formed before exact country/year projection. Thresholds are in original log-capital or threat units; slopes are per SD of log capital, outcomes in original units. Grid: 15th-85th percentiles; 999 country-level wild draws under the no-threshold null. Slope SEs are conditional on the selected threshold and exclude threshold-selection uncertainty. No threshold confidence interval is claimed: Hansen's original reference distribution is not established for this unbalanced, two-way FE, clustered extension. These are exploratory slope-break tests, not a test of a structural regime switch.\end{tablenotes}
+\end{table}

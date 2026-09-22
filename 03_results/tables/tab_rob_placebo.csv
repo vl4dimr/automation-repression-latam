@@ -1,0 +1,5 @@
+row,coefficient (SE),N
+1970-1995: manufacturing share x trend -> repression,-0.067 (0.131),468
+1970-1995: manufacturing share x trend -> labour share,0.075 (0.056),432
+1990-2024: z_robot -> urban share (placebo outcome),7.267 (1.600),443
+1990-2024: z_robot -> political corruption (placebo outcome),-0.025 (0.036),443

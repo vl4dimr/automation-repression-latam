@@ -1,0 +1,103 @@
+{
+ "ate": -0.1849108394457425,
+ "ate_ci": [
+  NaN,
+  NaN
+ ],
+ "n": 490,
+ "blp_beta2": null,
+ "blp_p2": null,
+ "top_importance": {
+  "antisys_l5": 0.288,
+  "urban_share": 0.196,
+  "ln_gdppc": 0.116,
+  "k_l2": 0.112
+ },
+ "country": {
+  "ARG": {
+   "cate": -0.352,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "VEN": {
+   "cate": -0.351,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "COL": {
+   "cate": -0.303,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "PER": {
+   "cate": -0.299,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "MEX": {
+   "cate": -0.294,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "BOL": {
+   "cate": -0.224,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "BRA": {
+   "cate": -0.212,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "CHL": {
+   "cate": -0.179,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "PAN": {
+   "cate": -0.154,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "DOM": {
+   "cate": -0.135,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "URY": {
+   "cate": -0.132,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "NIC": {
+   "cate": -0.122,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "PRY": {
+   "cate": -0.108,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "ECU": {
+   "cate": -0.078,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "GTM": {
+   "cate": -0.061,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "SLV": {
+   "cate": -0.049,
+   "lb": NaN,
+   "ub": NaN
+  },
+  "HND": {
+   "cate": -0.039,
+   "lb": NaN,
+   "ub": NaN
+  }
+ }
+}

@@ -1,0 +1,5 @@
+row,(1) rep. | K/L,(2) choice | K/L,(3) labsh | K/L,(4) rep. | robots,(5) labsh | robots,(6) rep. | robots + manuf. trend
+Instrumented regressor,-0.450*** (0.166),-2.363*** (0.781),0.003 (0.048),-0.156 (0.430),0.051 (0.166),0.438 (0.425)
+First-stage F (cluster-robust),19.4,11.7,19.4,0.5,0.4,3.0
+Observations,569,553,555,443,436,443
+Reduced form (instrument),0.025*** (0.009),0.121*** (0.039),-0.000 (0.003),0.047 (0.122),-0.013 (0.040),-0.328 (0.338)

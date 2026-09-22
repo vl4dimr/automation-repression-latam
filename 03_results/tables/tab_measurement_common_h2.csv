@@ -1,0 +1,6 @@
+row,Available b (SE),N,Common b (SE),N common
+Physical: mobilization threat,-0.0023 (0.0214),236,-0.0023 (0.0214),236
+Physical: anti-system threat,0.0283 (0.0761),506,0.0083 (0.0263),236
+CSO: anti-system threat,-0.4992 (0.7789),506,-0.3304 (0.5584),236
+PTS: anti-system threat,0.3654 (0.2266),506,0.6834 (0.4080),236
+Composite: anti-system threat,-0.2041 (0.3296),506,-0.1597 (0.1859),236

@@ -1,0 +1,17 @@
+\begin{table}[htbp]\centering
+\caption{Instrumental-variable estimates}
+\label{tab:iv}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+ & (1) rep. | K/L & (2) choice | K/L & (3) labsh | K/L & (4) rep. | robots & (5) labsh | robots & (6) rep. | robots + manuf. trend \\
+\midrule
+Instrumented regressor & -0.450*** (0.166) & -2.363*** (0.781) & 0.003 (0.048) & -0.156 (0.430) & 0.051 (0.166) & 0.438 (0.425) \\
+First-stage F (cluster-robust) & 19.4 & 11.7 & 19.4 & 0.5 & 0.4 & 3.0 \\
+Observations & 569 & 553 & 555 & 443 & 436 & 443 \\
+Reduced form (instrument) & 0.025*** (0.009) & 0.121*** (0.039) & -0.000 (0.003) & 0.047 (0.122) & -0.013 (0.040) & -0.328 (0.338) \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\footnotesize 2SLS with two-way FE and country-clustered SEs. Columns (1)-(3) instrument log K/L (t-1) with the lagged 5-year change of the commodity price index (initial export shares x world real prices), the only timing with a first-stage F above 10 (see the first-stage table); its first-stage sign is negative. Columns (4)-(6) instrument the log robot stock per worker with the shift-share (1993-97 manufacturing share x donor robot stock per worker). Column (6) adds manufacturing share x log trend, not observed China exposure. Standardized regressors and instruments.\end{tablenotes}
+\end{table}
