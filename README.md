@@ -1,6 +1,6 @@
-# Replication package — Automation and Repression: Panel Evidence from Latin America
+# Automation and Repression: Panel Evidence from Latin America
 
-Data and code for *Automation and Repression: Panel Evidence from Latin America* (manuscript under review at World Development).
+Data and code for the article of the same title, under review at World Development.
 
 ## Authors
 
@@ -70,5 +70,5 @@ Code is released under the MIT licence (see LICENSE). Derived analysis data rema
 
 ## Cite
 
-This package is archived on Zenodo: [10.5281/zenodo.22915358](https://doi.org/10.5281/zenodo.22915358). Machine-readable
-metadata is in `CITATION.cff`.
+The data and code are archived on Zenodo: [10.5281/zenodo.22915358](https://doi.org/10.5281/zenodo.22915358).
+Machine-readable metadata is in `CITATION.cff`.
