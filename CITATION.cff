@@ -19,8 +19,9 @@ authors:
     given-names: "Fred"
     orcid: "https://orcid.org/0000-0003-0834-6834"
     affiliation: "Universidad Nacional del Altiplano, Puno, Peru"
-version: 1.1.0
-date-released: 2026-09-20
+doi: 10.5281/zenodo.22915358
+version: 1.0.0
+date-released: 2026-09-23
 repository-code: https://github.com/vl4dimr/automation-repression-latam
 license: MIT
 keywords:

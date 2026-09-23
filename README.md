@@ -70,4 +70,5 @@ Code is released under the MIT licence (see LICENSE). Derived analysis data rema
 
 ## Cite
 
-See `CITATION.cff`. A Zenodo DOI for this package will be added here when the deposit is published.
+This package is archived on Zenodo: [10.5281/zenodo.22915358](https://doi.org/10.5281/zenodo.22915358). Machine-readable
+metadata is in `CITATION.cff`.
